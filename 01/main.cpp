@@ -5,5 +5,6 @@ int main(){
     std::cout << "Введите имя: ";
     std::cin >> str_greet;
     Greeter gr;
-    gr.greet(str_greet);
+    std::cout << gr.greet(str_greet);
+
 }
